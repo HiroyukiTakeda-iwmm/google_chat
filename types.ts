@@ -1,7 +1,3 @@
-
-// Add explicit type for the global html2pdf library loaded via CDN
-declare var html2pdf: any;
-
 export enum UserRole {
   ADMIN = 'Admin',
   INTERVIEWER = 'Interviewer',
@@ -27,11 +23,11 @@ export interface Message {
 export interface KnowledgeArticle {
   id: string;
   title: string;
-  summary: string; // 短くポイントをまとめた要約
-  overview: string; // 概要（詳細）
-  keyInsights: string[]; // ポイント
-  planningNotes: string[]; // 計画時の注意点
-  executionNotes: string[]; // 実務時の注意点
+  summary: string;
+  overview: string;
+  keyInsights: string[];
+  planningNotes: string[];
+  executionNotes: string[];
   tags: string[];
   fullTranscript: Message[];
   createdAt: number;
@@ -60,10 +56,10 @@ export interface DashboardStats {
 
 export interface AIAnalysisResult {
   suggestedTitle: string;
-  summary: string; // 短くポイントをまとめた要約
-  overview: string; // 概要
-  keyInsights: string[]; // ポイント
-  planningNotes: string[]; // 計画時の注意点
-  executionNotes: string[]; // 実務時の注意点
+  summary: string;
+  overview: string;
+  keyInsights: string[];
+  planningNotes: string[];
+  executionNotes: string[];
   tags: string[];
 }
