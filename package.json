@@ -1,7 +1,8 @@
 {
-  "name": "k-sync:-implicit-knowledge-extraction-system",
+  "name": "k-sync",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
+  "description": "組織の暗黙知を形式知に変換するAIインタビューシステム",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -10,9 +11,11 @@
   },
   "dependencies": {
     "@google/genai": "^1.30.0",
-    "react-dom": "^19.2.0",
+    "html2canvas": "^1.4.1",
+    "jspdf": "^3.0.4",
     "lucide-react": "^0.555.0",
     "react": "^19.2.0",
+    "react-dom": "^19.2.0",
     "recharts": "^3.5.1"
   },
   "devDependencies": {

@@ -1,7 +1,3 @@
-
-// Add explicit type for the global html2pdf library loaded via CDN
-declare var html2pdf: any;
-
 export enum UserRole {
   ADMIN = 'Admin',
   INTERVIEWER = 'Interviewer',
