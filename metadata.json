@@ -1,0 +1,7 @@
+{
+  "name": "K-Sync: Implicit Knowledge Extraction System",
+  "description": "An AI-powered knowledge management platform designed to extract, organize, and retrieve implicit internal knowledge through structured interviews and intelligent analysis.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
